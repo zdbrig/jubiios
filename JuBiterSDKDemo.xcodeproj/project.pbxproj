@@ -181,6 +181,7 @@
 		C317B426265F977800D14C8B /* JUBFILAmount.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JUBFILAmount.mm; path = Modals/JUBFILAmount.mm; sourceTree = "<group>"; };
 		C317B428265F9E1800D14C8B /* testFIL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testFIL.json; path = testJSONScript/testFIL.json; sourceTree = "<group>"; };
 		C3C04CEF265397F20007EA73 /* 42584E46433230303532353030303031_oce.settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 42584E46433230303532353030303031_oce.settings; path = settings/42584E46433230303532353030303031_oce.settings; sourceTree = "<group>"; };
+		CB968CFF26D11B70005EC3CF /* libJubSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libJubSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +310,7 @@
 		680DDAB4242880F300622FB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB968CFF26D11B70005EC3CF /* libJubSDK.a */,
 				67D9F1A1256CFFEA0021C513 /* JubSDKCore.framework */,
 				67D9F19F256CFFE60021C513 /* JuBiterSDKUI.framework */,
 				680DDAB5242880F400622FB0 /* AVFoundation.framework */,
@@ -641,7 +643,7 @@
 				CODE_SIGN_ENTITLEMENTS = JuBiterSDKDemo/JuBiterSDKDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S47T4UESP3;
+				DEVELOPMENT_TEAM = UA95K4LCKP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,7 +669,7 @@
 					"$(SRCROOT)/",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jubiterwallet.JubWalletSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jubiterwallet.JubWalletSDKDemo5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -684,7 +686,7 @@
 				CODE_SIGN_ENTITLEMENTS = JuBiterSDKDemo/JuBiterSDKDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S47T4UESP3;
+				DEVELOPMENT_TEAM = UA95K4LCKP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -711,7 +713,7 @@
 					"$(SRCROOT)/",
 				);
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jubiterwallet.JubWalletSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jubiterwallet.JubWalletSDKDemo5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
